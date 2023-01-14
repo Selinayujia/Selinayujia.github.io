@@ -3761,7 +3761,7 @@ input[type=button].btn-block {
 }
 
 .navbar-inner {
-    height: 80px;  
+    height: 40px;  
 }
 
 .nav-link {
@@ -3781,7 +3781,7 @@ input[type=button].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 .nav-tabs .nav-item {
-  margin-bottom: -1px;
+  margin-bottom: 1px;
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -3813,7 +3813,7 @@ input[type=button].btn-block {
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
   flex: 1 1 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .nav-justified > .nav-link,
@@ -3834,8 +3834,8 @@ input[type=button].btn-block {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items: left
+  justify-content: left;
   padding: 0.5rem 1rem;
 }
 .navbar .container,
